@@ -1,0 +1,16 @@
+.color-font{
+    color: cadetblue;
+    font-size: 3rem;
+    text-align: center;
+}
+.container-img{
+    width:80%;
+    height:60vh;
+    display: flex;
+    margin: 0 auto;
+}
+.img-frank{
+    width:500px;
+    height:500px;
+    margin: 0 auto;
+}
