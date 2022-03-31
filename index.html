@@ -10,10 +10,9 @@
 <body>
     <div id="root">
         <p v-bind:class="classi">{{message}}</p>
-        <div class="container-img" v-for="(pic, index) in pics">
-            <img :src="getPic(index)" v-bind:alt="pic" class="img-frank"> {{getPic(index)}}
+        <div class="container-img">
+            <img v-bind:src="image"  class="img-frank">
         </div>
-        
     </div>
 
 

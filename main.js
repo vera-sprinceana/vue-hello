@@ -7,18 +7,11 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 var app=new Vue(
     {
         el:'#root',
-        data(){
-            return{
+        data:{
                 message:'Prontooo?!',
-                classi:'color-font',
-                pics: ['frank'], 
-            }
-        },
-            methods: {
-                getPic(index) {
-                return './asset/' + this.pics[index] + '.png';
-                }
-    }
+                classi:'color-font', 
+                image: './asset/frank.png'   
+        }
     }
 );
 
